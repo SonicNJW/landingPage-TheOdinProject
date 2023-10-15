@@ -81,12 +81,10 @@ a {
     border: none;
     align-self: flex-start;
     margin-top: auto;
-    
-
 }
 
 .hero-photo {
     max-width: 100%;
-    border-radius: 5%;
+    border-radius: 2% 100% 2% 2%;
     transform: scaleX(-1);
 }
