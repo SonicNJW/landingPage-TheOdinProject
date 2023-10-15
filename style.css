@@ -1,0 +1,32 @@
+/* * {
+    border: 1px solid red;
+} */
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+nav {
+    margin-left: auto;
+    
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.hero-photo {
+    max-width: 25%;
+}
