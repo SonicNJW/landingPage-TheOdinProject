@@ -142,3 +142,16 @@ a {
     text-align: center;
 }
 
+.quote {
+    background-color: #e5e7eb;
+}
+.quote-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    font: 100;
+    padding: 5rem 5rem 5rem 5rem;
+    text-align: center;
+}
