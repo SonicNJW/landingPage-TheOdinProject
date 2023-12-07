@@ -1,9 +1,10 @@
 * {
+    box-sizing: border-box;
     /* border: 1px solid red; */
 }
 
 body {
-    margin: 0px;
+    margin: 0rem;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,14 +12,14 @@ body {
 header {
     background-color: #1f2937;
     display: flex;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     color: #F9FAF8;
-    padding: 10px 150px 50px 150px;
+    padding: 0.625rem 1.875rem 3.125rem 1.875rem;
 }
 
 .header-title {
-    padding: 0px;
-    margin: 0px;
+    padding: 0rem;
+    margin: 0rem;
 }
 
 nav {
@@ -26,11 +27,11 @@ nav {
 }
 
 ul {
-    padding: 0px;
-    margin: 0px;
+    padding: 0rem;
+    margin: 0rem;
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 1.563rem;
 }
 
 a {
@@ -41,11 +42,11 @@ a {
 .hero {
     background-color: #1f2937;
     color: #F9FAF8;
-    padding: 30px 150px;
+    padding: 1.875rem;
     display: flex;
     justify-content: space-around;
     align-items: flex;
-    gap: 30px;
+    gap: 1.875rem;
     
 }
 
@@ -54,30 +55,28 @@ a {
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding: 10px 0px;
-    /* justify-content: center; */
-    /* justify-content: space-between; */
+    padding: 0.625rem 0rem;
 }
 
 .hero-headline {
-    margin: 0px 0px 15px 00px;
-    font-size: 48px;
+    margin: 0rem 0rem 0.938rem 0rem;
+    font-size: 3rem;
     font-weight: bolder;
 }
 
 .hero-sub-heading {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #E5E7EB;
-    margin: 0px 0px 25px 0px;
+    margin: 0rem 0rem 1.563rem 0rem;
 }
 
 .signup-button {
-    padding: 10px 10px 10px 10px;
-    min-width: 150px;
-    border-radius: 10px;
+    padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+    min-width: 9.375rem;
+    border-radius: 0.625rem;
     background-color: #3882F6;
     color: #F9FAF8;
-    font-size: 16px;
+    font-size: 1rem;
     border: none;
     align-self: flex-start;
     margin-top: auto;
@@ -88,3 +87,58 @@ a {
     border-radius: 2% 100% 2% 2%;
     transform: scaleX(-1);
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: flex-start; */
+    height: 31.25rem;
+    padding-top: 3.125rem;
+    /* border: 5px solid green; */
+}
+
+.info-heading {
+    font-size: 1.75rem;
+    font-weight: bold;
+    /* border: 5px solid yellow; */
+}
+
+.info-box-container {
+    /* display: flex; */
+    /* align-self: center; */
+    /* justify-content: center; */
+    gap: 3.125rem;
+    /* border: 5px solid red; */
+}
+
+.info-boxes {
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.info-box {
+    /* flex: 1; */
+    /* display: flex; */
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid blue;
+    border-radius: 0.5rem;
+}
+
+.info-box-sub-texts {
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.info-box-sub-text {
+    width: 10rem;
+    /* border: 2px solid blue; */
+    text-align: center;
+}
+
